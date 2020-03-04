@@ -7,13 +7,18 @@
   <title>Mr. Morrill's Webpage</title>
   <meta charset="utf-8"/>
   <link rel="stylesheet" type="text/css" href="styles.css">
+  <script>
+    function myFunction() {
+    document.getElementById("demo").innerHTML = "Hello JavaScript!";
+  }
+  </script>
 </head>
   
 <body>
   
-  <h1 align="center;" style="font-family:courier;"><b><u>Mr. Morrill's Website</u></b></h1>
+  <h1 style="font-family:courier; text-align:center;"><b><u>Mr. Morrill's Website</u></b></h1>
   
-  <h2>Algebra II</h2>
+  <h2><u>Algebra II</u></h2>
     <ul>
       
       <li><a href="Quadratic Unit Review.pdf">Quadratics Test Review</a>
@@ -24,8 +29,9 @@
       
     </ul>
   
-  <h2>SAT Prep</h2>
+  <h2><u>SAT Prep</u></h2>
   <a href="https://www.khanacademy.org/sat">Practice</a>
+  <button type="button" onclick="myFunction()">Try it</button>
   
 </body>
   
